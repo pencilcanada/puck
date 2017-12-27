@@ -1,7 +1,7 @@
 # puck
 Pencil Canada Spring cloud config server
 
-**How to user**
+**How to use**
 
 This config server will load property files from Pencil Canada Naix Git repository (https://github.com/pencilcanada/naix/).
 
