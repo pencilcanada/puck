@@ -1,0 +1,15 @@
+spring:
+  application:
+    name:  puck
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pencilcanada/naix/
+          search-paths: '{application}'
+        encrypt:
+          enabled: false
+server:
+  port: 8900
+encrypt:
+  key: tutor123
